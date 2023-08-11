@@ -1,0 +1,32 @@
+.burgerItem {
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.burgerItem:hover {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+
+.burgerItem img {
+  width: 100%;
+}
+
+.contentItem h2 {
+  margin-bottom: 0px;
+}
+
+.contentItem h6 {
+  margin: 10px;
+  font-family: inherit;
+}
+
+.contentItem i {
+  margin: 10px;
+  color: red;
+  font-family: inherit;
+}

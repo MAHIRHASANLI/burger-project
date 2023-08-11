@@ -1,0 +1,45 @@
+.nav {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+}
+
+.main {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navImg {
+  width: 60px;
+  height: 60px;
+}
+
+.navImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.main a.active {
+  text-decoration: underline white;
+}
+.main a:active {
+  background-color: blue;
+}
+
+@media screen and (max-width: 700px) {
+  .navLinks {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+.burgers {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  width: 70%;
+}

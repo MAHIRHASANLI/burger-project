@@ -1,0 +1,52 @@
+.contact {
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactLeft {
+  width: 50%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactRigth {
+  width: 40%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+}
+
+.contactRigth {
+  text-align: start;
+}
+
+.contactRigth input,
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  outline: none;
+}
+
+.contactBtn {
+  padding: 12px 45px;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: 20px;
+  background-color: brown;
+  cursor: pointer;
+  border: 1px solid brown;
+}
+
+.contactBtn:focus {
+  background-color: rgb(165, 42, 82);
+  border: 1px solid rgb(165, 42, 82);
+}
